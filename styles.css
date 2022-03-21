@@ -1,1 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body {
+    background-color: darkgray;
+}
+.post {
+    background-color: white;
+    width: 350px;
+    margin: auto;
+}
+.postimg {
+    width: 350px;
+}
+i{
+    font-size: 2em;
+}
+.header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
 
+}
+.header-left {
+    display: flex;
+    gap: 10px;
+    padding: 0px 5px;
+}
+.htmlicon {
+    height: 50px;
+    position: relative;
+    top: 5px;
+}
+.header-right {
+
+}
+.imageicon {
+    display: flex;
+    flex-direction: row
+    justify-content: center;
+}
+.buttons {
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.buttons-left {
+    display: flex;
+    gap: 5px;
+}
