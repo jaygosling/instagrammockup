@@ -50,3 +50,6 @@ i{
     display: flex;
     gap: 5px;
 }
+.text {
+    padding: 0px 10px
+}
